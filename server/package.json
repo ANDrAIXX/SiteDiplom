@@ -5,7 +5,7 @@
   "scripts": {
     "client": "npm start --prefix ../client",
     "clientinstall": "npm install --prefix ../client",
-    "server": "nodemon Server/index.js",
+    "server": "node index.js",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
