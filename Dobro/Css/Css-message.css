@@ -1,0 +1,129 @@
+.MessageBlock
+{
+    margin-top: 1em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1.5em;
+    border: 1px solid lightgray;
+    /* text-decoration: none; */
+    color: black;
+}
+
+
+.Margin-Top-2em
+{
+    margin: auto;
+    width: fit-content;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.TextAreaMessage
+{
+    resize: none;
+    overflow: hidden;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+}
+
+.Message-block
+{
+    padding: 1em 2em 1em 2em;
+    background-color: white;
+    border-radius: 1em 1em 0em 0em;
+    border: 1px solid lightgray;
+    position: sticky;
+    bottom: 0;
+    margin-top: 0.5em;
+}
+
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+.input-file span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 0.8em;
+	background-color: #75b6ff;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+/* Focus */
+.input-file input[type=file]:focus + span {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Hover/active */
+.input-file:hover span {
+	background-color: #75b6ff;
+}
+.input-file:active span {
+	background-color: #2E703A;
+}
+
+/* Disabled */
+.input-file input[type=file]:disabled + span {
+	background-color: #eee;
+}
+
+.padding-top-05em
+{
+    padding: 0.5em;
+}
+
+.RightContent-message
+{
+    margin-top: 0 !important;
+    min-height: 100vh !important;
+}
+
+.MessageForMe
+{margin: 0.5em 1em;color: white;background-color: #75b6ff;padding: 1em;border-radius: 1em;text-align: end;max-width: 75%;}
+
+.MessageNotForMe
+{
+    margin: 1em;
+    background-color: #ff9898;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    /* text-align: end; */
+    max-width: 75%;
+}
+
+.DataForMe
+{padding: 1em 0em;color: #b1b1b1;text-align: end;}
+
+.DataNotForMe
+{padding: 1em 0em;color: #b1b1b1;/* text-align: end; */}
+
+.Otstup-6em
+{
+    height: 6em;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+

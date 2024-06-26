@@ -1,0 +1,174 @@
+.MessageBlock
+{
+    margin-top: 1em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1.5em;
+    border: 1px solid lightgray;
+    /* text-decoration: none; */
+    color: black;
+}
+
+
+.Margin-Top-2em
+{
+    margin: auto;
+    width: fit-content;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.TextAreaMessage
+{
+    resize: none;
+    overflow: hidden;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+}
+
+.Message-block
+{
+    padding: 1em 2em 1em 2em;
+    background-color: white;
+    border-radius: 1em 1em 0em 0em;
+    border: 1px solid lightgray;
+    position: sticky;
+    bottom: 0;
+    margin-top: 0.5em;
+}
+
+.input-file
+{
+  border: 1px solid #75b6ff;
+  border-radius: 1em;
+}
+
+.padding-top-05em
+{
+    padding: 0.5em;
+}
+
+.margin-top-05em
+{
+    margin-top: 0.5em;
+}
+
+.RightContent-message
+{
+    margin-top: 0 !important;
+    min-height: 100vh !important;
+}
+
+.MessageForMe
+{margin: 0.5em 1em;color: white;background-color: #75b6ff;padding: 1em;border-radius: 1em;text-align: end;max-width: 75%;}
+
+.MessageNotForMe
+{
+    margin: 1em;
+    background-color: #ff9898;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    /* text-align: end; */
+    max-width: 75%;
+}
+
+.DataForMe
+{padding: 1em 0em;color: #b1b1b1;text-align: end;}
+
+.DataNotForMe
+{padding: 1em 0em;color: #b1b1b1;/* text-align: end; */}
+
+.Otstup-6em
+{
+    height: 6em;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.file-btn {
+    width: 250px;
+    height: 150px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #8A3FFC;
+    background-color: #fff;
+    border: 1.5px dashed #8A3FFC;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .file-btn:hover {
+    color: #8A3FFC;
+    background-color: #fff;
+  }
+  
+  .file-btn span {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #8A3FFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #f3ecff;
+  }
+  
+  .selected-file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3ecff;
+    border: 1px solid #e8d9fe;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .selected-file p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 15px;
+  }
+  
+  .selected-file button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8A3FFC;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .selected-file button:hover {
+      color: #fff;
+      background-color: #8A3FFC;
+  }
+
+  input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #75b6ff;
+    padding: 0.5em 0.5em;
+    border-radius: 0.5em;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #75b6ff;
+  }
+

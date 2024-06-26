@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<link rel="icon" href="../Main-Image/logotype.png" type="image/x-icon">-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="../Css/Css-message.css">
+        <link rel="stylesheet" type="text/css" href="../Css/Css-home.css">
+        <link rel="stylesheet" type="text/css" href="../Css/Css-MAIN.css">
+	  <meta charset="UTF-8">
+	  <title> Добро </title>
+	</head>
+	<body>
+        <div class="HeaderHome MarginNone DisplayFlex-row Position-Fixed">
+            <div id="Main-Width" class="DisplayFlex-row">
+                <a href="Home-Page.html" class="Width-midle FlexJustify-start DisplayFlex-row">
+                    <image alt="Home-Carusel-1" src = "../Images/Logotype-2.png" class="ImgSize-contain"></image>
+                </a>
+                <div class="DisplayFlex-row Width-midle FlexElement-center">
+                    <p class="TextSize-santi TextLine"> Контакты </p>
+                    <p class="TextSize-santi TextLine"> О нас </p>
+                    <p class="TextSize-santi TextLine"> Возможности </p>
+                </div>
+                <div class="DisplayFlex-row Width-midle FlexAlign-center FlexJustify-end">
+                    <div class="MiniAvatar-block FlexJustify-center TextSize-santi DisplayFlex-row"> 
+                        <image alt="Home-Carusel-1" src = "../Images/Data-Base/12.jpg" class="ImgSize-cover ImgSize-normal"></image>
+                    </div>
+                    <button id="ProfileButtonMenuOn" onclick="javascript:MenuOn()" class="NonButton DisplayFlex-column TextAlign-center">
+                        <p class="TextSize-mili MarginNone"> Минка Татьяна </p>
+                        <p class="TextSize-mili MarginNone"> Антоновна </p>
+                    </button>
+                    <button id="ProfileButtonMenuOff" onclick="javascript:MenuOff()" class="NonButton NoneBlock DisplayFlex-column TextAlign-center">
+                        <p class="TextSize-mili MarginNone"> Минка Татьяна </p>
+                        <p class="TextSize-mili MarginNone"> Антоновна </p>
+                    </button>
+                    <div id="ProfileMenu" class="MenuProfile NoneBlock TextAlign-center">
+                        <p class="TextSize-mili MarginNone"> Профиль </p>
+                        <hr>
+                        <p class="TextSize-mili MarginNone"> Редактировать профиль </p>
+                        <hr>
+                        <p class="TextSize-mili MarginNone"> Выход </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Main-Width" class="DisplayFlex-row">
+            <div id = "Left-Buttons">
+                <div class="LeftButtons-sled">
+                    <a href="Profile.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Профиль </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/profile.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="Journal.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Журнал </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/journal.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="Message.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Связь </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/connection.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="List.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Списки </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/list.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="News.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Новости </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/news.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                </div>
+            </div>
+
+            <div id = "Right-Content" class="PaddingNone DisplayFlex-ColumnReverse FlexJustify-end RightContent-message">
+                <div class="Message-block DisplayFlex-column">
+                    <form action="" class="DisplayFlex-row FlexAlign-center Width-full">
+                        <div class="DisplayFlex-column Width-full FlexAlign-center">
+                            <div class="DisplayFlex-row Width-full">
+                                <textarea id="MessageForTextArea" name="story" rows="1" cols="33" class="TextAreaMessage TextSize-mili Width-full"></textarea>
+                                <button type="submit" class="NonButton" value="">
+                                    <image alt="Home-Carusel-1" src = "../Images/enter.png" class="ImgSize-cover ImgSize-normal"></image>
+                                </button>
+                            </div>
+                            <div class="DisplayFlex-row FlexWrap-wrap FlexJustify-center" id="ForFileButton">
+                                <label class="input-file Height-FitContent padding-top-05em" id="FileLable0" class="">
+                                    <input type="file" onclick="javascript:FileButtonAdd(1)" name="file[]" id="FileButton0">		
+                                    <span>+Файл</span>
+                                </label>
+                                <label class="input-file Height-FitContent padding-top-05em NoneBlock" id="FileLable1">
+                                    <input type="file" onclick="javascript:FileButtonAdd(2)" name="file[]" id="FileButton1">		
+                                    <span>+Файл</span>
+                                </label>
+                                <label class="input-file Height-FitContent padding-top-05em NoneBlock" id="FileLable2">
+                                    <input type="file" onclick="javascript:FileButtonAdd(3)" name="file[]" id="FileButton2">		
+                                    <span>+Файл</span>
+                                </label>
+                                <label class="input-file Height-FitContent padding-top-05em NoneBlock" id="FileLable3">
+                                    <input type="file" onclick="javascript:FileButtonAdd(4)" name="file[]" id="FileButton3">		
+                                    <span>+Файл</span>
+                                </label>
+                                <label class="input-file Height-FitContent padding-top-05em NoneBlock" id="FileLable4">
+                                    <input type="file" onclick="javascript:FileButtonAdd(5)" name="file[]" id="FileButton4">		
+                                    <span>+Файл</span>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="DisplayFlex-row FlexJustify-end">
+                    <div class="DataForMe">
+                        <p class="TextSize-Mili MarginNone"> 28.04.04 </p>
+                        <p class="TextSize-Mili MarginNone"> 11:45 </p>
+                    </div>
+                    <div class="MessageForMe">
+                        <p class="Text-MiliBold MarginNone"> Новости </p>
+                    </div>
+                </div>
+
+                <div class="DisplayFlex-row FlexJustify-end">
+                    <div class="DataForMe">
+                        <p class="TextSize-Mili MarginNone"> 28.04.04 </p>
+                        <p class="TextSize-Mili MarginNone"> 11:45 </p>
+                    </div>
+                    <div class="MessageForMe">
+                        <p class="Text-MiliBold MarginNone"> Какие блять нахуй я врот того ебал и вертел на хую 6 с половиной раз новости нахуй? </p>
+                    </div>
+                </div>
+
+                <div class="DisplayFlex-row FlexJustify-start">
+                    <div class="MessageNotForMe">
+                        <p class="Text-MiliBold MarginNone">  Какие блять нахуй я врот того ебал и вертел на хую 6 с половиной раз новости нахуй? 
+                            Какие блять нахуй я врот того ебал и вертел на хую 6 с половиной раз новости нахуй?  </p>
+                    </div>
+                    <div class="DataNotForMe DisplayFlex-column">
+                        <p class="TextSize-Mili MarginNone"> 28.04.04 </p>
+                        <p class="TextSize-Mili MarginNone"> 11:45 </p>
+                    </div>
+                </div>
+
+                <div class="DisplayFlex-row FlexJustify-start">
+                    <div class="MessageNotForMe">
+                        <p class="Text-MiliBold MarginNone"> Новости? </p>
+                    </div>
+                    <div class="DataNotForMe DisplayFlex-column">
+                        <p class="TextSize-Mili MarginNone"> 28.04.04 </p>
+                        <p class="TextSize-Mili MarginNone"> 11:45 </p>
+                    </div>
+                </div>
+
+                <div class="DisplayFlex-row FlexJustify-start">
+                    <div class="MessageNotForMe">
+                        <p class="Text-MiliBold MarginNone"> Какие блять нахуй я врот того ебал и вертел на хую 6 с половиной раз новости нахуй? </p>
+                    </div>
+                    <div class="DataNotForMe DisplayFlex-column">
+                        <p class="TextSize-Mili MarginNone"> 28.04.04 </p>
+                        <p class="TextSize-Mili MarginNone"> 11:45 </p>
+                    </div>
+                </div>
+                
+                <div class="DisplayFlex-row FlexJustify-start">
+                    <div class="MessageNotForMe">
+                        <p class="Text-MiliBold MarginNone"> Какие блять нахуй я врот того ебал и вертел на хую 6 с половиной раз новости нахуй? </p>
+                    </div>
+                    <div class="DataNotForMe DisplayFlex-column">
+                        <p class="TextSize-Mili MarginNone"> 28.04.04 </p>
+                        <p class="TextSize-Mili MarginNone"> 11:45 </p>
+                    </div>
+                </div>
+                
+                <div class="DisplayFlex-row FlexJustify-start">
+                    <div class="MessageNotForMe">
+                        <p class="Text-MiliBold MarginNone"> Какие блять нахуй я врот того ебал и вертел на хую 6 с половиной раз новости нахуй? </p>
+                    </div>
+                    <div class="DataNotForMe DisplayFlex-column">
+                        <p class="TextSize-Mili MarginNone"> 28.04.04 </p>
+                        <p class="TextSize-Mili MarginNone"> 11:45 </p>
+                    </div>
+                </div>
+
+                <div class="Otstup-6em"></div>
+            </div>
+        </div>
+
+        
+
+        <script src = "JS/ProfileMenu.js"> </script>
+
+        <script> 
+            window.onload=function(){
+                window.scrollTo(0,document.body.scrollHeight);
+            }
+            
+            document.querySelector('textarea').addEventListener('input', function () {
+                this.style.height = 'auto';
+                this.style.height = `${this.scrollHeight}px`;
+            });
+
+            $("#MessageForTextArea").keypress(function (e) {
+                if(e.which === 13 && !e.shiftKey) {
+                    e.preventDefault();
+                    $(this).closest("form").submit();
+                }
+            });
+
+            $('.input-file input[type=file]').on('change', function(){
+                let file = this.files[0];
+                $(this).next().html(file.name);
+            });
+
+            function FileButtonAdd(arr)
+            {
+                if(arr<5)
+                {
+                    var input = document.getElementById('FileButton' +  (arr - 1));
+
+                    input.addEventListener('input', check);
+
+                    function check() 
+                    {
+                        if (this.value != '') 
+                        {
+                            var el = document.getElementById("FileLable" + arr);
+                            el.classList.remove("NoneBlock");
+                        }
+                    }
+                }
+            }
+            
+
+        </script>
+    </body>
+</html>

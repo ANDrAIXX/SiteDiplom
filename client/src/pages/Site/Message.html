@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<link rel="icon" href="../Main-Image/logotype.png" type="image/x-icon">-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="../Css/Css-message.css">
+        <link rel="stylesheet" type="text/css" href="../Css/Css-home.css">
+        <link rel="stylesheet" type="text/css" href="../Css/Css-MAIN.css">
+	  <meta charset="UTF-8">
+	  <title> Добро </title>
+	</head>
+	<body>
+        <div class="HeaderHome MarginNone DisplayFlex-row Position-Fixed">
+            <div id="Main-Width" class="DisplayFlex-row">
+                <a href="Home-Page.html" class="Width-midle FlexJustify-start DisplayFlex-row">
+                    <image alt="Home-Carusel-1" src = "../Images/Logotype-2.png" class="ImgSize-contain"></image>
+                </a>
+                <div class="DisplayFlex-row Width-midle FlexElement-center">
+                    <p class="TextSize-santi TextLine"> Контакты </p>
+                    <p class="TextSize-santi TextLine"> О нас </p>
+                    <p class="TextSize-santi TextLine"> Возможности </p>
+                </div>
+                <div class="DisplayFlex-row Width-midle FlexAlign-center FlexJustify-end">
+                    <div class="MiniAvatar-block FlexJustify-center TextSize-santi DisplayFlex-row"> 
+                        <image alt="Home-Carusel-1" src = "../Images/Data-Base/12.jpg" class="ImgSize-cover ImgSize-normal"></image>
+                    </div>
+                    <button id="ProfileButtonMenuOn" onclick="javascript:MenuOn()" class="NonButton DisplayFlex-column TextAlign-center">
+                        <p class="TextSize-mili MarginNone"> Минка Татьяна </p>
+                        <p class="TextSize-mili MarginNone"> Антоновна </p>
+                    </button>
+                    <button id="ProfileButtonMenuOff" onclick="javascript:MenuOff()" class="NonButton NoneBlock DisplayFlex-column TextAlign-center">
+                        <p class="TextSize-mili MarginNone"> Минка Татьяна </p>
+                        <p class="TextSize-mili MarginNone"> Антоновна </p>
+                    </button>
+                    <div id="ProfileMenu" class="MenuProfile NoneBlock TextAlign-center">
+                        <p class="TextSize-mili MarginNone"> Профиль </p>
+                        <hr>
+                        <p class="TextSize-mili MarginNone"> Редактировать профиль </p>
+                        <hr>
+                        <p class="TextSize-mili MarginNone"> Выход </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Main-Width" class="DisplayFlex-row">
+            <div id = "Left-Buttons">
+                <div class="LeftButtons-sled">
+                    <a href="Profile.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Профиль </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/profile.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="Journal.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Журнал </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/journal.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="Message.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Связь </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/connection.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="List.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Списки </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/list.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                    <a href="News.html" class="DisplayFlex-row ButtonMenu-block">
+                        <div class="ButtonMenu DisplayFlex-row">
+                            <div class="ButtonMenu-text DisplayFlex-row FlexElement-center ">
+                                <p class="TextSize-santi Text-white MarginNone"> Новости </p>
+                            </div>
+                        </div>
+                        <image alt="Home-Carusel-1" src = "../Images/news.jpg" class="ImgSize-cover Width-midle Margin-Left"></image>
+                    </a>
+                </div>
+            </div>
+
+            <div id = "Right-Content">
+                <div class="Otstup-top"></div>
+                <div class="DisplayFlex-row FlexAlign-center">
+                    <p class="TextSize-kilo MarginNone Width-midle"> Сообщения </p>
+                    <form class="Form-poisk">
+                        <input placeholder="Поиск..." type="text" class="Poisk MarginNone TextSize-santi">
+                        <button type="submit" class="Button-poisk"> <image alt="lupa" src = "../Images/lupa.png" class="ImgSize-cover Width-midle Margin-Left"></image> </button>
+                    </form>
+                    <a href="" class="BittonBlue MarginNone TextSize-santi Button-sort"> Сначало </a>
+                </div>
+
+                <a href="MessegePole.html" class="MessageBlock DisplayFlex-row">
+                    <div class="DisplayFlex-row FlexJustify-start">
+                        <div class="NormalAvatar-block FlexJustify-center TextSize-santi DisplayFlex-row"> 
+                            <image alt="Home-Carusel-1" src = "../Images/Data-Base/12.jpg" class="ImgSize-cover Width-full ImgSize-normal"></image>
+                        </div>
+                        <div class="NonButton DisplayFlex-column NewsAvatar-text">
+                            <p class="TextSize-normal MarginNone"> Минка Татьяна Антоновна </p>
+                            <p class="TextSize-mili Margin-Top-1em MarginNone Text-gray"> ДИПЛОМ!!! </p>
+                        </div>
+                    </div>
+                    <p class="TextSize-mili MarginNone"> 22 мая 2024 </p>
+                </a>
+
+                <div class="MessageBlock DisplayFlex-row">
+                    <div class="DisplayFlex-row FlexJustify-start">
+                        <div class="NormalAvatar-block FlexJustify-center TextSize-santi DisplayFlex-row"> 
+                            <image alt="Home-Carusel-1" src = "../Images/Data-Base/12.jpg" class="ImgSize-cover Width-full ImgSize-normal"></image>
+                        </div>
+                        <div class="NonButton DisplayFlex-column NewsAvatar-text">
+                            <p class="TextSize-normal MarginNone"> Минка Татьяна Антоновна </p>
+                            <p class="TextSize-mili Margin-Top-1em MarginNone Text-gray"> ДИПЛОМ!!! </p>
+                        </div>
+                    </div>
+                    <p class="TextSize-mili MarginNone"> 22 мая 2024 </p>
+                </div>
+
+                <div class="MessageBlock DisplayFlex-row">
+                    <div class="DisplayFlex-row FlexJustify-start">
+                        <div class="NormalAvatar-block FlexJustify-center TextSize-santi DisplayFlex-row"> 
+                            <image alt="Home-Carusel-1" src = "../Images/Data-Base/12.jpg" class="ImgSize-cover Width-full ImgSize-normal"></image>
+                        </div>
+                        <div class="NonButton DisplayFlex-column NewsAvatar-text">
+                            <p class="TextSize-normal MarginNone"> Минка Татьяна Антоновна </p>
+                            <p class="TextSize-mili Margin-Top-1em MarginNone Text-gray"> ДИПЛОМ!!! </p>
+                        </div>
+                    </div>
+                    <p class="TextSize-mili MarginNone"> 22 мая 2024 </p>
+                </div>
+
+                <div class="Margin-Top-2em">
+                    <a href="" class="BittonBlue TextSize-santi Button-sort"> Сегодня лучший день, чтобы начать новое общение! </a>
+                </div>
+            </div>
+        </div>
+
+        <section id = "FoterInformation" class="DisplayFlex-column FlexAlign-center">
+            <div class="FoterUp DisplayFlex-row">
+                <div class="FooterCards">
+                    <p class="TextSize-normal TextAlign-justify"> Контакты </p>
+                    <p class="TextSize-santi MarginNone TextAlign-justify"> Телефон:  </p>
+                    <p class="TextSize-santi  TextAlign-justify"> 8(951)-516-08-06 </p>
+
+                    <p class="TextSize-santi "> Если не дозвонились: 8(951)-516-02-07 </p>
+
+                    <p class="TextSize-santi  TextAlign-justify"> Электронная-почта: resurs.dobro@mail.ru </p>
+                </div>
+                <div class="FooterCards">
+                    <p class="TextSize-normal TextAlign-justify"> О компании </p>
+                    <p class="TextSize-santi  TextAlign-justify"> О нас </p>
+
+                    <p class="TextSize-santi  TextAlign-justify"> Новости </p>
+
+                    <p class="TextSize-santi  TextAlign-justify"> Поддержка </p>
+                </div>
+                <div class="FooterCards">
+                    <p class="TextSize-normal TextAlign-justify"> Возможности </p>
+                    <p class="TextSize-santi  TextAlign-justify"> Студентам </p>
+
+                    <p class="TextSize-santi  TextAlign-justify"> Родителям </p>
+
+                    <p class="TextSize-santi  TextAlign-justify"> Преподавателям </p>
+                </div>
+                <div class="FooterCards-bolshe DisplayFlex-row FlexElement-center">
+                    <div class="DisplayFlex-column FlexAlign-center">
+                        <image alt="Home-Carusel-1" src = "../Images/Logotype-2.png" class="ImgSize-contain"></image>
+                        <br>
+                        <p class="TextSize-santi MarginNone TextAlign-justify"> Пользовательское соглашение </p>
+                        <br> 
+                        <p class="ButtonWhite-non-background-red TextSize-santi"> Добавить УУ </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "FoterDop" class=" DisplayFlex-column FlexAlign-center">
+            <div class="FoterDown DisplayFlex-row FlexAlign-center">
+                <div class="FooterCards-dop DisplayFlex-row FlexAlign-center">
+                    <p class="TextSize-santi MarginNone TextAlign-justify Width-midle-chetvert"> Электронно-образовательный ресурс "Добро" </p>
+                    <div class="DisplayFlex-row Width-midle FlexJustify-end">
+                        <image alt="Home-Carusel-1" src = "../Images/c.png" class="ImgSize-contain ImgSize-macro Margin-lr"></image>
+                        <p class="TextSize-santi MarginNone TextAlign-justify"> 2024 год ООО "Добро" </p>
+                    </div>
+                </div>
+                <div class="FooterCards-dop-bolshe DisplayFlex-row FlexAlign-center">
+                    <p class="TextSize-santi MarginNone"> Ищи нас: </p>
+                    <div class="DisplayFlex-row">
+                        <image alt="Home-Carusel-1" src = "../Images/vk.png" class="ImgSize-contain ImgSize-mini Margin-lr"></image>
+                        <image alt="Home-Carusel-1" src = "../Images/tg.png" class="ImgSize-contain ImgSize-mini Margin-lr"></image>
+                        <image alt="Home-Carusel-1" src = "../Images/yt.png" class="ImgSize-contain ImgSize-mini Margin-lr"></image>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src = "JS/ProfileMenu.js"> </script>
+    </body>
+</html>

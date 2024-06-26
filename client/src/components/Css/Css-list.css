@@ -1,0 +1,40 @@
+.AvatarList
+{
+    width: 10vmax !important;
+    height: 9.9vmax !important;
+}
+
+.white-spaceNO
+{
+    white-space:nowrap;
+}
+
+@media (min-width: 1300px) 
+{	
+    .AvatarList
+    {
+        width: 14vmax !important;
+        height: 11.9vmax !important;
+    }
+    
+}
+
+@media (min-width: 1600px) 
+{	
+    .AvatarList
+{
+    width: 11vmax !important;
+    height: 10.9vmax !important;
+}
+    
+}
+
+@media (min-width: 1800px) 
+{	
+    .AvatarList
+{
+    width: 10vmax !important;
+    height: 9.9vmax !important;
+}
+   
+}

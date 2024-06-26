@@ -1,0 +1,65 @@
+.Table-Dnevnick
+{
+
+/* margin-top: 1em; */
+
+/* border: 1px solid gray; */
+
+/* color: white; */
+
+/* border-radius: 5em; */
+}
+
+.TStroka-Dnevnick
+{height: 3em;background-color: white;}
+
+.TStolbec-DnevnickFirst
+{
+
+border: 1px solid lightgray;
+
+width: 100vmax;
+
+text-align: center;
+}
+
+.TStolbec-Dnevnick
+{
+    
+border: 1px solid lightgray;
+    
+width: 6%;
+    
+text-align: center;
+    
+/* background-color: #ff6868; */
+}
+
+.Background-red
+{
+    background-color: #ff9898;
+    color: white;
+}
+
+.Background-blue
+{
+    background-color: #75b6ff;
+    color: white;
+}
+
+.TableBlock
+{
+    border: 1px solid lightgray;
+    margin-top: 1em;
+    border-radius: 2em;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.triangle-top 
+{
+    width: 100%;
+    height: 100%;
+    border-left: 4em solid transparent;
+    border-top: 3em solid #ff9898;
+  }

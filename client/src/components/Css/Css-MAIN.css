@@ -1,0 +1,926 @@
+body
+{
+	line-height: normal;
+    overflow:scroll;
+	overflow-x: hidden;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.MiniAvatar-block
+{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 3.2em;
+    height: 3em;
+    margin-right: 0.5em;
+    /* justify-content: center; */
+}
+
+.NormalAvatar-block
+{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 6.2em;
+    height: 6em;
+    margin-right: 1em;
+    /* justify-content: center; */
+}
+
+.MenuProfile
+{
+    position: absolute;
+    top: 6em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 1em;
+    border: 1px solid lightgray;
+    left: 79.5%;
+    opacity: 0;
+}
+
+/* text */
+
+.Text-white
+{
+    color: white;
+}
+
+.Text-red
+{
+    color: #ff9898;
+}
+
+.Text-blue
+{
+    color: #75b6ff;
+}
+
+.Text-lightgray
+{
+    color: lightgray;
+}
+
+.Text-gray
+{
+    color: gray;
+}
+
+.Text-black
+{
+    color: black;
+}
+
+.TextSize-makro
+{
+    font-family: "Gotik";
+    font-size: 0.5vmax;
+}
+
+.TextSize-mili
+{
+    font-family: "Gotik";
+    font-size: 1.3vmax;
+}
+
+.TextSize-santi
+{
+    font-family: "Gotik";
+    font-size: 1.5vmax;
+}
+
+.TextSize-normal
+{
+    font-family: "Gotik";
+    font-size: 1.8vmax;
+}
+
+.TextSize-kilo
+{
+    font-family: "Gotik";
+    font-size: 2.2vmax;
+}
+
+.Text-MiliBold
+{
+    font-family: "BoldGotik";
+    font-size: 1.3vmax;
+}
+
+.TextSize-bold
+{
+    font-family: "BoldGotik";
+    font-size: 2.5vmax;
+}
+
+.TextAlign-justify
+{
+    text-align: justify;
+}
+
+.TextAlign-center
+{
+    text-align: center;
+}
+
+.TextAlign-end
+{
+    text-align: end;
+}
+
+/* flex */
+
+.DisplayFlex-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.DisplayFlex-column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.DisplayFlex-ColumnReverse
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.FlexElement-center
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexAlign-center
+{
+    align-items: center;
+}
+
+.FlexAlign-end
+{
+    align-items: end;
+}
+
+.FlexAlign-start
+{
+    align-items: start;
+}
+
+.FlexJustify-center
+{
+    justify-content: center;
+}
+
+.FlexJustify-start
+{
+    justify-content: start;
+}
+
+.FlexJustify-end
+{
+    justify-content: end;
+}
+
+.FlexWrap-wrap
+{
+    flex-wrap: wrap;
+}
+
+.mar-boka
+{
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+}
+
+.disnone
+{
+    display: none;
+}
+
+
+/* images */
+
+.ImgSize-contain
+{
+    /* width: 100%; */
+    object-fit: contain;
+}
+
+.ImgSize-cover
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.ImgSize-15
+{
+    width: 15% !important;
+}
+
+.ImgSize-macro
+{
+    width: 1.3rem;
+}
+
+.ImgSize-podmini
+{
+    width: 2rem;
+}
+
+.ImgSize-mini
+{
+    width: 3rem;
+}
+
+.ImgSize-normal
+{
+    width: 5rem;
+}
+
+.otstup-9em-top 
+{
+    top: 10em !important;
+    border-radius: 0em 0em 0.5em 0.5em;
+}
+
+.otstup-6em-top 
+{
+    top: 5.9em !important;
+    border-radius: 0em 0em 0.5em 0.5em;
+}
+
+.MarginBottom-05em
+{
+    margin-bottom:  0.5em;
+}
+
+/* form */
+
+.Form-poisk
+{
+    position: relative;
+    width: 100%;
+    margin-right: 10%;
+}
+
+.Poisk {
+    background-color: white;
+    color: white;
+    border-radius: 0.7rem 0rem 0rem 0.7rem;
+    border: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    width: 100%;
+}
+
+.Button-poisk
+{height: 100%;border: 0;width: 14%;position: absolute;border-radius: 0rem 0.7rem 0.7rem 0rem;background-color: white;border-top: 1px solid lightgrey;border-bottom: 1px solid lightgray;border-right: 1px solid lightgray;}
+
+.Button-poisk:hover
+{
+    opacity: 0.5;
+}
+
+.Button-sort
+{
+    width: 40%;
+    text-align: center;
+}
+
+.BittonRed {
+    background-color: #ff9898;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 0.5em 2em 0.5em 2em;
+    border: 0;
+}
+
+#ProfileButtonMenuOn:disabled
+{
+    color: black;
+}
+
+.NonButton
+{
+    
+background-color: white;
+    
+border: 0;
+}
+
+.NoneButtonHome
+{
+    padding: 0;
+    border: 0;
+}
+
+.NoneButtonVozm
+{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background: none;
+}
+
+.NoneButtonVozm:hover
+{
+    border-bottom: 1px solid #ff9898;
+}
+
+.NoneButtonVozm:focus
+{
+    border-bottom: 1px solid #ff9898;
+}
+
+.ButHeaderMain:hover .ImgSize-cover
+{
+    opacity: 0.6;
+}
+
+.ButHeaderMain:focus .ImgSize-cover
+{
+    opacity: 0.6;
+}
+
+.BittonBlue {
+    background-color: #75b6ff;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.ButtonCard
+{
+    
+width: 30%;
+    
+border-radius: 1vmax 1vmax 0vmax 0vmax;
+    
+background-color: white;
+    
+overflow: hidden;
+    
+position: relative;
+}
+
+.ButtonWhite-non-background
+{
+    border-radius: 0.5vmax;
+    color: white;
+    padding: 1%;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid white;
+}
+
+.ButtonWhite-non-background-red
+{
+    /*alignment-baseline: ideographic;*/
+    border-radius: 0.5vmax;
+    color: gray;
+    padding: 3%;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+}
+
+.Background-red
+{
+    background-color: #ff9898 !important;
+}
+
+.Background-bluebutton
+{
+    background-color: #75b6ff !important;
+    border-radius: 0 !important;
+}
+
+.ButtonMenu-block
+{
+    
+width: 100%;
+    
+height: 4em;
+    
+position: relative;
+    
+border-radius: 3rem;
+    
+overflow: hidden;
+    
+margin-bottom: 1em;
+}
+
+.ButtonMenu
+{
+    
+width: 60%;
+    
+position: absolute;
+    
+height: 100%;
+    
+/* background-color: rgba(0,0,0,0.5); */
+    
+border-radius: 3rem;
+    
+overflow: hidden;
+    
+background-color: #f4f4f4;
+}
+
+.ButtonMenu-text
+{
+    
+width: 100%;
+    
+height: 100%;
+    
+background-color: rgba(0,0,0,0.3);
+}
+
+/* section */
+
+#Header-All-Page
+{
+    opacity: 1;
+}   
+
+#FoterInformation
+{
+
+background-color: #646060;
+
+z-index: 1;
+
+position: relative;
+}
+
+#FoterDop
+{
+
+background-color: #404040;
+
+z-index: 1;
+
+position: relative;
+}
+
+.FooterCards {
+    width: 24%;
+    padding: 1%;
+}
+
+.FoterUp {
+    width: 100%;
+    color: white;
+}
+
+.FooterCards-bolshe{
+    width: 30%;
+    background-color: #e7e7e7;
+    padding: 1%;
+    color: gray;
+    border-top: 1px solid #7c7777;
+}
+
+.FoterDown
+{
+    width: 100%;
+ color: white;
+}
+
+.FooterCards-dop
+{
+    width: 72%;
+    padding: 1%;
+    padding-right: 3%;
+}
+
+.FooterCards-dop-bolshe
+{
+    width: 30%;
+    background-color: #e7e7e7;
+    padding: 1%;
+    color: gray;
+    justify-content: space-around;
+    border-bottom: 1px solid #404040;
+}
+
+/* margin-padding */
+
+.Position-Fixed
+{
+    position: fixed;
+}
+
+.Position-Absolute
+{
+    position: absolute;
+}
+
+.MarginNone
+{
+    margin: 0;
+}
+
+.Margin-lr
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.Margin-Left
+{
+    margin-left: auto;
+}
+
+.Margin-Right
+{
+    margin-right: 2em;
+}
+
+.Margin-Top-1em
+{
+    margin-top: 1em;
+}
+
+.Margin-Bottom-1em
+{
+    margin-bottom: 1em !important;
+}
+
+.Margin-Top-05em
+{
+    margin-top: 0.5em;
+}
+
+.Margin-Top-1emI
+{
+    margin-top: 0.5em !important;
+}
+
+.PaddingNone
+{
+    padding: 0;
+}
+
+.padding-10
+{
+    padding: .8em;
+}
+
+.PaddingNone
+{
+    padding: 0 !important;
+}
+
+/* width-height */
+
+.Width-chetvert
+{
+    width: 25%;
+}
+
+.Width-midle
+{
+    width: 50%;
+}
+
+.Width-midle-chetvert
+{
+    width: 75%;
+}
+
+.Width-full
+{
+    width: 100%;
+}
+
+.Width-bolshe
+{
+    width: 30em;
+}
+
+.Height-full
+{
+    height: 100%;
+}
+
+.Height-FitContent
+{
+    height: fit-content;
+}
+
+#Main-Width-Home
+{
+    width: 100%;
+    box-shadow: 0px 0px 8px 0px lightgrey;
+    height: 100%;
+    padding-bottom: 5vmax;
+    margin: auto;
+}
+
+#Main-Width
+{
+    width: 100%;
+    /* box-shadow: 0px 0px 8px 0px lightgrey; */
+    height: 100%;
+    /* padding-bottom: 0vmax; */
+    margin-top: 10vmax;
+    margin: auto;
+    /* margin-top: 6em; */
+}
+
+#Left-Buttons
+{
+
+width: 25%;
+
+/* height: 100vmax; */
+
+padding: 1em 2em 1em 0em;
+
+margin-top: 6em;
+
+/* position: fixed; */
+
+/* top: 6em; */
+
+height: auto;
+}
+
+.LeftButtons-sled
+{
+    position: sticky;
+    top: 7em;
+}
+
+.NoneBlock
+{
+    display: none !important;
+}
+
+.NoneBlockNoIm
+{
+    display: none;
+}
+
+.Otstup-top
+{
+    height: 6em;
+    width: 100%;
+}
+
+
+
+
+#Right-Content
+{
+    
+width: 75%;
+    
+box-shadow: 0px 0px 8px 0px lightgrey;
+    
+/* height: 100vmax; */
+    
+/* margin-top: 6em; */
+    
+margin-left: auto;
+    
+padding: 1em;
+    
+min-height: 100vh;
+    
+/* padding-bottom: 3em; */
+}
+
+/* media */
+
+@media (min-width: 1300px) 
+{	
+
+    .FoterDown{width: 95%;}
+
+    .FoterUp{width: 95%;}
+
+    #Main-Width-Home{width: 95%}
+
+	#Main-Width{width: 95%}
+
+    .TextSize-makro{font-size: 1vmax;}
+    
+    .Text-MiliBold{font-size: 1.3vmax;}
+
+    .TextSize-mili{font-size: 1.3vmax;}
+
+    .TextSize-santi{font-size: 1.5vmax;}
+
+    .TextSize-normal{font-size: 1.8vmax;}
+
+    .TextSize-kilo{font-size: 2.2vmax;}
+
+    .TextSize-bold{font-size: 2.5vmax;}
+}
+
+@media (min-width: 1600px) 
+{	
+
+    .FoterDown{width: 90%;}
+
+    .FoterUp{width: 90%;}
+
+	#Main-Width-Home{width: 90%;}
+
+    #Main-Width{width: 90%;}
+
+    .TextSize-makro{font-size: 1vmax;}
+
+    .TextSize-mili{font-size: 1.1vmax;}
+
+    .Text-MiliBold{font-size: 1.1vmax;}
+
+    .TextSize-santi{font-size: 1.3vmax;}
+
+    .TextSize-normal{font-size: 1.5vmax;}
+
+    .TextSize-kilo{font-size: 1.9vmax;}
+
+    .TextSize-bold{font-size: 2vmax;}
+
+    .MenuProfile{left: 80%;}
+}
+
+@media (min-width: 1800px) 
+{	
+    
+    .FoterDown{width: 80%;}
+
+    .FoterUp{width: 80%;}
+
+	#Main-Width-Home{width: 80%}
+
+    #Main-Width{width: 80%}
+
+    .TextSize-makro{font-size: 0.9vmax;}
+
+    .TextSize-mili{font-size: 0.9vmax;}
+
+    .Text-MiliBold{font-size: 0.9vmax;}
+
+    .TextSize-santi{font-size: 1.1vmax;}
+
+    .TextSize-normal{font-size: 1.2vmax;}
+
+    .TextSize-kilo{font-size: 1.7vmax;}
+
+    .TextSize-bold{font-size: 1.5vmax;}
+
+    .MenuProfile{left: 77.5%;}
+}
+
+
+/* fonts */
+
+@font-face {
+	font-family: 'Gotik'; 
+	src: url(../Fonts/centurygothic.ttf); 
+}
+
+@font-face {
+	font-family: 'BoldGotik'; 
+	src: url(../Fonts/centurygothic_bold.ttf); 
+}
+
+/* Login Modal */
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #75b6ff;
+}
+
+.login-header {
+  background: #75b6ff;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: "Gotik";
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.TextArea1
+{
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: "Gotik";
+    font-size: 0.95em;
+    resize: none;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.TextArea1:focus
+{
+    border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #75b6ff;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #75b6ff;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #75b6ff;
+}
+
+.noneFone
+{
+    background: none;
+    border: 0;
+}
+
+.LoginWidth
+{
+    width: 100%;
+}

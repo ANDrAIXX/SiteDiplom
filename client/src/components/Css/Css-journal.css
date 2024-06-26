@@ -1,0 +1,67 @@
+.CardsJournal
+{
+
+width: 31%;
+
+/* height: 10em; */
+
+background-color: #ff9898;
+
+margin: 0.5em;
+
+padding: 1%;
+
+border-radius: 1em;
+
+text-align: center;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+
+.CardsJournal-block
+{
+
+flex-wrap: wrap;
+}
+
+.MenuJournal-block
+{
+    
+background-color: white;
+    
+border: 1px solid lightgray;
+    
+border-radius: 1em;
+    
+padding: 0.5em;
+    
+margin-bottom: 1em;
+}
+
+.MenuDocumentation
+{
+    
+background-color: #75b6ff;
+    
+padding: 1em;
+    
+border-radius: 1em;
+}
+
+.padding-1em
+{
+    padding: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.JournalPoisk
+{
+    position: relative;
+    width: 100%;
+    margin-right: 11%;
+}

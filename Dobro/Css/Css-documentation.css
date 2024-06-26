@@ -1,0 +1,74 @@
+.Table-Doc
+{
+width: 100%;
+}
+
+.TStroka-Doc
+{
+    
+height: 3em;
+}
+
+.TStolbec-Doc
+{
+    width: 20%;
+    border: 1px solid lightgray;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    /* text-align: center; */
+    padding: 1%;
+}
+
+.TStolbec-DocFirst
+{
+
+width: 100vmax;
+
+border: 1px solid lightgray;
+
+overflow-wrap: break-word;
+
+word-break: break-word;
+
+/* text-align: center; */
+
+padding: 1%;
+}
+
+.TableBlock
+{
+    border: 1px solid lightgray;
+    margin-top: 1em;
+    border-radius: 2em;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.Background-red
+{
+    background-color: #ff9898;
+    color: white;
+}
+
+.Background-blue
+{
+    background-color: #75b6ff;
+    color: white;
+}
+
+.padding-top-1em
+{
+    padding-top: 1em;
+}
+
+.padding-noRight-1em
+{
+    padding: 0.5em;
+    padding-right: 0;
+}
+
+.border-top-lightgray
+{
+    padding-top: 1.5em;
+    border-top: 2px solid #a7a7a7;
+}

@@ -1,0 +1,192 @@
+#Home-Information
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+}
+
+#Opportunities
+{
+
+width: 95%;
+
+margin-top: 3rem;
+}
+
+#About-Us
+{
+
+width: 95%;
+
+margin-top: 3rem;
+
+/* height: 35rem; */
+}
+
+.MainImg-block
+{
+    height: 55rem;
+}
+
+.Home-Carusel
+{
+    width: 100%;
+    
+    position: absolute;
+    
+    height: 100%;
+}
+
+.TextSizeHeader-information
+{
+    font-family: "Gotik";
+    font-size: 4.5vmax;
+    text-align: center;
+}
+
+.TextCard-block {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
+
+.CaruselBlock-buttons
+{
+    
+height: 18%;
+    
+justify-content: space-evenly;
+    
+width: 98%;
+}
+
+.TextLine {
+    padding: 1%;
+    border-bottom: 1px solid #449cff;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 0;
+}
+
+.HeaderHome
+{
+height: 6em;
+width: 100%;
+margin: 4em;
+/* position: absolute; */
+padding: 0.5em;
+padding-left: 2%;
+background-color: white;
+border-bottom: 2px solid #449cff;
+border-top: 2px solid #ff6868;
+/* margin-top: -6em; */
+/* margin-bottom: 10em; */
+justify-content: space-between;
+z-index: 2;
+}
+
+.BlockHome-text
+{
+    color: white;
+    /* justify-content: space-between; */
+    /* height: 100%; */
+}
+
+.TextHome-foter
+{
+
+width: 90%;
+
+justify-content: space-between;
+}
+
+.HomeInformation-block
+{
+    
+width: 100%;
+    
+height: 100%;
+    
+position: absolute;
+    
+background-color: rgba(0,0,0,0.4);
+    
+justify-content: space-between;
+}
+
+.OpportunitiesInformation-block {
+    border: 1px solid #449cff;
+    padding: 1%;
+    border-radius: 1vmax;
+    margin-top: 1rem;
+}
+
+.OpportunitiesCards {
+    padding-bottom: 1%;
+    border-bottom: 1px solid #449cff;
+    margin-bottom: 1%;
+}
+
+.OpportunitiesText
+{
+    width: 60%;
+    margin-left: 2vmax;
+}
+
+.About-UsText
+{
+    
+width: 60%;
+}
+
+.About-UsCard
+{
+    height: 100%;
+    margin-top: 1vmax;
+}
+
+.About-UsImg
+{
+    width: 40%;
+    margin-left: 5%;
+}
+
+@media (min-width: 1300px) 
+{	
+	.Home-Carusel{width: 90%;}
+
+    .TextSizeHeader-information{font-size: 4.5vmax;}
+}
+
+@media (min-width: 1600px) 
+{	
+	.Home-Carusel{width: 80%;}
+
+    .TextSizeHeader-information{font-size: 4vmax;}
+}
+
+@media (min-width: 1800px) 
+{	
+	.Home-Carusel{width: 70%; height: 100%;}
+
+    .TextSizeHeader-information
+    {
+        font-size: 3.5vmax;
+    }
+}
+
+/* fonts */
+
+@font-face {
+	font-family: 'Gotik'; 
+	src: url(../Fonts/centurygothic.ttf); 
+}
+
+@font-face {
+	font-family: 'BoldGotik'; 
+	src: url(../Fonts/centurygothic_bold.ttf); 
+}

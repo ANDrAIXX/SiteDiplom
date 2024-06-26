@@ -1,0 +1,126 @@
+.LeftProfile-block
+{
+
+width: 37%;
+
+background-color: white;
+
+border: 1px solid lightgray;
+
+border-radius: 0em 1.5em;
+
+padding: 1em;
+
+position: relative;
+}
+
+.LeftProfile-block-2
+{
+
+width: 37%;
+
+background-color: white;
+
+border: 1px solid lightgray;
+
+border-radius:  1.5em;
+
+padding: 1em;
+
+}
+
+.RightProfile-block
+{
+width: 61%;
+margin-left: 1em;
+padding: 1em 0.5em;
+background-color: white;
+border: 1px solid lightgray;
+border-radius: 1.5em;
+}
+
+.Img-Avatar-block
+{
+
+height: 22vmax;
+
+border-radius: 50%;
+
+overflow: hidden;
+}
+
+.AvatarCards-block
+{
+    top: 0;
+    left: 0;
+}
+
+.AvatarCards-red
+{
+
+background-color: #ff9898;
+
+padding: 0.2em;
+
+/* border-left: 1px solid lightgray; */
+
+color: white;
+
+margin: 3% 0%;
+
+width: fit-content;
+}
+
+.AvatarCards-blue
+{
+
+background-color: #75b6ff;
+
+padding: 0.2em;
+
+/* border-left: 1px solid lightgray; */
+
+color: white;
+
+margin: 3% 0%;
+
+width: fit-content;
+}
+
+.ImgGalery-block
+{
+    
+height: 8vmax;
+    
+margin: 0.2em;
+    
+overflow: hidden;
+    
+width: 25%;
+}
+
+.Padding-tb-05em
+{
+    padding: 1em 0.5em;
+}
+
+.Margin-boka-02em
+{
+    margin: 0em 0.2em;
+}
+
+.Margin-boka-05em
+{
+    margin: 0em 0.5em;
+}
+
+.opacity-0
+{
+    opacity: 0;
+}
+
+@media (min-width: 1800px) 
+{	
+    .Img-Avatar-block {height: 19.5vmax;}
+
+}
